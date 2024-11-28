@@ -23,7 +23,7 @@
         if (input.value.trim() !== '') {
           const tarefa = document.createElement('p');
           tarefa.textContent = '- ' + input.value.trim();
-          tarefa.style.cursor = 'pointer'; // Adicionar estilo visual
+          tarefa.style.cursor = 'pointer'; 
           tarefasDiv.appendChild(tarefa);
           input.value = '';
 
