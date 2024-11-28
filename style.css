@@ -4,22 +4,22 @@ body {
     font-family: monospace;
     margin-top: 60px;
     color: rgba(226, 13, 13, 0.973);
-    user-select: none; /* Impede a seleção de texto */
+    user-select: none;
 }
 
 #geral {
     width: 500px;
     background-color: rgb(93, 93, 185);
     padding: 30px;
-    margin: auto; /* Centraliza o contêiner */
+    margin: auto; 
     text-align: center;
-    border-radius: 30px; /* Bordas arredondadas */
-    min-height: 300px; /* Altura mínima para manter consistência */
+    border-radius: 30px; 
+    min-height: 300px; 
 }
 
 #input-tarefa {
     width: 60%;
-    height: 60px; /* Ajustei para altura realista de inputs */
+    height: 60px; 
     font-family: monospace;
     border: none;
     border-radius: 16px;
@@ -31,18 +31,18 @@ body {
     font-size: 16px;
     font-family: monospace;
     width: 25%;
-    border: none; /* Removido se desnecessário */
-    padding: 8px; /* Para garantir um clique confortável */
-    cursor: pointer; /* Indica que é clicável */
-    border-radius: 5px; /* Opcional para estética */
+    border: none; 
+    padding: 8px; 
+    cursor: pointer; 
+    border-radius: 5px; 
 }
 
 #botao:hover {
-    background-color: rgb(177, 14, 14); /* Cor ao passar o mouse */
+    background-color: rgb(177, 14, 14);
 }
 
 #botao:active {
-    background-color: rgb(2, 190, 11); /* Cor ao clicar */
+    background-color: rgb(2, 190, 11); 
 }
 @media (max-width: 1000px) {
     h1 {
