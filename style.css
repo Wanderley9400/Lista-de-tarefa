@@ -1,0 +1,72 @@
+body {
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    margin-top: 60px;
+    color: rgba(226, 13, 13, 0.973);
+    user-select: none; /* Impede a seleção de texto */
+}
+
+#geral {
+    width: 500px;
+    background-color: rgb(93, 93, 185);
+    padding: 30px;
+    margin: auto; /* Centraliza o contêiner */
+    text-align: center;
+    border-radius: 30px; /* Bordas arredondadas */
+    min-height: 300px; /* Altura mínima para manter consistência */
+}
+
+#input-tarefa {
+    width: 60%;
+    height: 60px; /* Ajustei para altura realista de inputs */
+    font-family: monospace;
+    border: none;
+    border-radius: 16px;
+    padding-left: 17px;
+    font-size: 17px;
+}
+
+#botao {
+    font-size: 16px;
+    font-family: monospace;
+    width: 25%;
+    border: none; /* Removido se desnecessário */
+    padding: 8px; /* Para garantir um clique confortável */
+    cursor: pointer; /* Indica que é clicável */
+    border-radius: 5px; /* Opcional para estética */
+}
+
+#botao:hover {
+    background-color: rgb(177, 14, 14); /* Cor ao passar o mouse */
+}
+
+#botao:active {
+    background-color: rgb(2, 190, 11); /* Cor ao clicar */
+}
+@media (max-width: 1000px) {
+    h1 {
+      font-size: 1.5em;
+    }
+
+    input[type="text"] {
+      font-size: 0.9px;
+    }
+
+    button {
+      font-size: 0.9em;
+      padding: 8px 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    input[type="text"] {
+      width: calc(100% - 80px);
+    }
+
+    button {
+      padding: 8px 10px;
+      padding: 10px;
+    }
+  }
+</style>
